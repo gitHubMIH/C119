@@ -1,0 +1,28 @@
+body {
+    background: rebeccapurple;
+}
+h1 {
+    color: gainsboro;
+    background: rgb(20, 53, 48);
+}
+#mudarSketch
+{
+    float: right;
+}
+canvas {
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    animation-name: desenho;
+    animation-duration: 8s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes desenho{
+from{box-shadow: 55px 88px 58px rgb(196, 94, 247);}
+to{box-shadow: 55px 88px 58px rgb(46, 22, 58);}
+}
+p{
+    padding-top: 10px;
+    font-size: 17px;
+    color: aliceblue;
+}
